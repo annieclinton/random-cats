@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+h2,button,input{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+
+}
+.main{
+  text-align: center;
+}
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content:space-around;
+  gap: 30px;
+  margin-top: 50px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.hidden{
+  display: none;
+}
